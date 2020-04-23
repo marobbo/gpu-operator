@@ -3,7 +3,7 @@ entries:
   gpu-operator:
   - apiVersion: v2
     appVersion: 1.0.0-nightly-64ae160d
-    created: "2020-04-20T23:28:49.354678915Z"
+    created: "2020-04-23T21:28:06.284087617Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -19,7 +19,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0-nightly-fb6b99b1
-    created: "2020-04-20T23:28:49.352561481Z"
+    created: "2020-04-23T21:28:06.282145586Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -35,7 +35,7 @@ entries:
     version: 1.0.0-nightly-fb6b99b1
   - apiVersion: v2
     appVersion: 1.0.0-nightly-f4d601f7
-    created: "2020-04-20T23:28:49.350800713Z"
+    created: "2020-04-23T21:28:06.280139162Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -51,7 +51,7 @@ entries:
     version: 1.0.0-nightly-f4d601f7
   - apiVersion: v2
     appVersion: 1.0.0-nightly-ec753a31
-    created: "2020-04-20T23:28:49.349472629Z"
+    created: "2020-04-23T21:28:06.277882174Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -67,7 +67,7 @@ entries:
     version: 1.0.0-nightly-ec753a31
   - apiVersion: v2
     appVersion: 1.0.0-nightly-e56ac4ac
-    created: "2020-04-20T23:28:49.34583644Z"
+    created: "2020-04-23T21:28:06.276540709Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -83,7 +83,7 @@ entries:
     version: 1.0.0-nightly-e56ac4ac
   - apiVersion: v2
     appVersion: 1.0.0-nightly-e39d97a4
-    created: "2020-04-20T23:28:49.343785765Z"
+    created: "2020-04-23T21:28:06.275206252Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -99,7 +99,7 @@ entries:
     version: 1.0.0-nightly-e39d97a4
   - apiVersion: v2
     appVersion: 1.0.0-nightly-c7ef2a42
-    created: "2020-04-20T23:28:49.341973041Z"
+    created: "2020-04-23T21:28:06.271113743Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -115,7 +115,7 @@ entries:
     version: 1.0.0-nightly-c7ef2a42
   - apiVersion: v1
     appVersion: 1.0.0-nightly-c7c15354
-    created: "2020-04-20T23:28:49.34003797Z"
+    created: "2020-04-23T21:28:06.269127541Z"
     description: A Helm chart for Kubernetes
     digest: cfa2b2f8fa558b97a84b6205d3f71c99202c962c5c7b410fbaaa2a2026b25172
     name: gpu-operator
@@ -124,7 +124,7 @@ entries:
     version: 1.0.0-nightly-c7c15354
   - apiVersion: v2
     appVersion: 1.0.0-nightly-c150425a
-    created: "2020-04-20T23:28:49.339310924Z"
+    created: "2020-04-23T21:28:06.268435701Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -140,7 +140,7 @@ entries:
     version: 1.0.0-nightly-c150425a
   - apiVersion: v2
     appVersion: 1.0.0-nightly-b1a5efba
-    created: "2020-04-20T23:28:49.337303539Z"
+    created: "2020-04-23T21:28:06.266477942Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -156,7 +156,7 @@ entries:
     version: 1.0.0-nightly-b1a5efba
   - apiVersion: v2
     appVersion: 1.0.0-nightly-ac040fdd
-    created: "2020-04-20T23:28:49.335271913Z"
+    created: "2020-04-23T21:28:06.264478378Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -172,7 +172,7 @@ entries:
     version: 1.0.0-nightly-ac040fdd
   - apiVersion: v2
     appVersion: 1.0.0-nightly-9f438c13
-    created: "2020-04-20T23:28:49.332832574Z"
+    created: "2020-04-23T21:28:06.262458915Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -188,7 +188,7 @@ entries:
     version: 1.0.0-nightly-9f438c13
   - apiVersion: v2
     appVersion: 1.0.0-nightly-8fe0327e
-    created: "2020-04-20T23:28:49.330505815Z"
+    created: "2020-04-23T21:28:06.260454976Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -204,7 +204,7 @@ entries:
     version: 1.0.0-nightly-8fe0327e
   - apiVersion: v1
     appVersion: 1.0.0-nightly-8854bf7a
-    created: "2020-04-20T23:28:49.329269894Z"
+    created: "2020-04-23T21:28:06.258081464Z"
     description: A Helm chart for Kubernetes
     digest: 34665f3e0e966adde91c3384ad656009cb911c906fb9cccc15c23fdebff7723a
     name: gpu-operator
@@ -213,7 +213,7 @@ entries:
     version: 1.0.0-nightly-8854bf7a
   - apiVersion: v2
     appVersion: 1.0.0-nightly-8454e008
-    created: "2020-04-20T23:28:49.328693725Z"
+    created: "2020-04-23T21:28:06.257088468Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -229,7 +229,7 @@ entries:
     version: 1.0.0-nightly-8454e008
   - apiVersion: v2
     appVersion: 1.0.0-nightly-6ab291ed
-    created: "2020-04-20T23:28:49.325979663Z"
+    created: "2020-04-23T21:28:06.255837821Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -245,7 +245,7 @@ entries:
     version: 1.0.0-nightly-6ab291ed
   - apiVersion: v2
     appVersion: 1.0.0-nightly-48b2041c
-    created: "2020-04-20T23:28:49.324207009Z"
+    created: "2020-04-23T21:28:06.254505167Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -260,8 +260,24 @@ entries:
     - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-1.0.0-nightly-48b2041c.tgz
     version: 1.0.0-nightly-48b2041c
   - apiVersion: v2
+    appVersion: 1.0.0-nightly-3eabc180
+    created: "2020-04-23T21:28:06.251349718Z"
+    dependencies:
+    - condition: nfd.enabled
+      name: node-feature-discovery
+      repository: ""
+      version: 0.1.0
+    description: NVIDIA GPU Operator creates/configures/manages GPUs atop Kubernetes
+    digest: f00e7b3341e473f5818ee1058b3cff34e2f443123324852e4794917db14a0677
+    home: https://github.com/NVIDIA/gpu-operator
+    kubeVersion: '>= 1.13.0-0'
+    name: gpu-operator
+    urls:
+    - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-1.0.0-nightly-3eabc180.tgz
+    version: 1.0.0-nightly-3eabc180
+  - apiVersion: v2
     appVersion: 1.0.0-nightly-36c1c875
-    created: "2020-04-20T23:28:49.322281343Z"
+    created: "2020-04-23T21:28:06.249395152Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -277,7 +293,7 @@ entries:
     version: 1.0.0-nightly-36c1c875
   - apiVersion: v2
     appVersion: 1.0.0-nightly-31860e0a
-    created: "2020-04-20T23:28:49.320301302Z"
+    created: "2020-04-23T21:28:06.246804914Z"
     dependencies:
     - condition: nfd.enabled
       name: node-feature-discovery
@@ -293,7 +309,7 @@ entries:
     version: 1.0.0-nightly-31860e0a
   - apiVersion: v1
     appVersion: 1.0.0-nightly-2958192b
-    created: "2020-04-20T23:28:49.318292559Z"
+    created: "2020-04-23T21:28:06.244748806Z"
     description: A Helm chart for Kubernetes
     digest: 4a937c4c86e185f1a38616c019cd012127a1804003911b2a92e2212aa3653379
     name: gpu-operator
@@ -302,11 +318,11 @@ entries:
     version: 1.0.0-nightly-2958192b
   - apiVersion: v1
     appVersion: nightly-cf00e8a4
-    created: "2020-04-20T23:28:49.355555706Z"
+    created: "2020-04-23T21:28:06.2849532Z"
     description: A Helm chart for Kubernetes
     digest: 46fa42334db69ac955d64af3a8be4c18a3cd670d31653f538106a34ce4a498e5
     name: gpu-operator
     urls:
     - https://nvidia.github.io/gpu-operator/nightly/gpu-operator-nightly-cf00e8a4.tgz
     version: nightly-cf00e8a4
-generated: "2020-04-20T23:28:49.317047381Z"
+generated: "2020-04-23T21:28:06.243382418Z"
