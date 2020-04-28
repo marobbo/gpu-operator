@@ -72,5 +72,5 @@ prod-image:
 devel-image:
 	$(DOCKER) build -t $(IMAGE):$(TAG_DEVEL) -f $(DOCKERFILE_DEVEL) .
 
-pppc64le-image:
+ppc64le-image:
 	$(DOCKER) build --build-arg VERSION=$(VERSION) -t $(IMAGE):$(TAG_PPC64LE) -f $(DOCKERFILE_PPC64LE) .
