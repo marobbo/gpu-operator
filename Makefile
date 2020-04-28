@@ -13,13 +13,14 @@ include $(MAKE_DIR)/common.mk
 
 DOCKERFILE       ?= $(CURDIR)/docker/Dockerfile.ubi8.prod
 DOCKERFILE_DEVEL ?= $(CURDIR)/docker/Dockerfile.devel
+DOCKERFILE_PPC64LE ?= $(CURDIR)/docker/Dockerfile.ubuntu18.04.ppc64le
 
 BIN_NAME  ?= gpu-operator
 IMAGE     ?= nvidia/gpu-operator
 VERSION   ?= 1.1.2
 TAG       ?= latest
 TAG_DEVEL ?= devel
-
+TAG_PPC64LE ?= ppc64le
 
 ##### File definitions #####
 
@@ -70,3 +71,6 @@ prod-image:
 
 devel-image:
 	$(DOCKER) build -t $(IMAGE):$(TAG_DEVEL) -f $(DOCKERFILE_DEVEL) .
+
+pppc64le-image:
+	$(DOCKER) build --build-arg VERSION=$(VERSION) -t $(IMAGE):$(TAG_PPC64LE) -f $(DOCKERFILE_PPC64LE) .
