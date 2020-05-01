@@ -60,20 +60,20 @@ operator:
 
 driver:
   repository: nvidia
-  image: driver
-  version: "440.64.00"
+  image: nvidia-driver2/ubuntu
+  version: 18.04-ppc64le
 
 toolkit:
   repository: nvidia
-  image: container-toolkit
-  version: 1.0.0-beta.0
+  image: container-toolkit/ubuntu18.04
+  version: latest
 
 devicePlugin:
   repository: nvidia
   image: k8s-device-plugin
-  version: 1.0.0-beta4
+  version: 1.0.0-beta6
 
 dcgmExporter:
   repository: nvidia
   image: dcgm-exporter
-  version: 1.7.2-2.0.0-rc.5-ubuntu18.04
+  version: 1.7.2-2.0.0-rc.6-ubuntu18.04
