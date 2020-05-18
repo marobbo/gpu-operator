@@ -59,21 +59,21 @@ operator:
                 values: [""]
 
 driver:
-  repository: nvidia
-  image: nvidia-driver2/ubuntu
-  version: 18.04-ppc64le
+  repository: mrobbo
+  image: driver
+  version: "440.33.01"
 
 toolkit:
-  repository: nvidia
-  image: container-toolkit/ubuntu18.04
-  version: latest
+  repository: mrobbo
+  image: container-toolkit
+  version: 1.0.0-beta.0
 
 devicePlugin:
-  repository: nvidia
+  repository: mrobbo
   image: k8s-device-plugin
   version: 1.0.0-beta6
 
 dcgmExporter:
-  repository: nvidia
+  repository: mrobbo
   image: dcgm-exporter
   version: 1.7.2-2.0.0-rc.6-ubuntu18.04
