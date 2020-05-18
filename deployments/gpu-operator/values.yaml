@@ -29,10 +29,10 @@ platform:
   openshift: false
 
 operator:
-  repository: nvidia
+  repository: mrobbo
   image: gpu-operator
 # If not set, the tag defaults to Chart.AppVersion
-# tag: "foo"
+  tag: latest
 
   defaultRuntime: docker
   clusterversion: 0.0
