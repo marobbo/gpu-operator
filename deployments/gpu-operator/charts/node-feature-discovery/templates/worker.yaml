@@ -32,7 +32,7 @@ spec:
       - name: worker
         securityContext:
           {{- toYaml .Values.worker.securityContext | nindent 12 }}
-        image: "{{ .Values.image.repository }}:{{ .Chart.AppVersion }}"
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
         imagePullPolicy: {{ .Values.image.pullPolicy }}
         env:
         - name: NODE_NAME

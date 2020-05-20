@@ -61,7 +61,7 @@ operator:
 driver:
   repository: mrobbo
   image: driver
-  version: "440.33.01"
+  version: 440.33.01
 
 toolkit:
   repository: mrobbo

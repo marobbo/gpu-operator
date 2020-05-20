@@ -3,8 +3,9 @@
 # Declare variables to be passed into your templates.
 
 image:
-  repository: quay.io/kubernetes_incubator/node-feature-discovery
+  repository: mrobbo/node-feature-discovery
   pullPolicy: IfNotPresent
+  tag: v0.5.0-50-g1bdf052
 imagePullSecrets: []
   
 serviceAccount:
