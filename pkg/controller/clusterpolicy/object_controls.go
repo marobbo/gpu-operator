@@ -310,7 +310,8 @@ func preProcessDaemonSet(obj *appsv1.DaemonSet, n ClusterPolicyController) {
 	_, osTag := kernelFullVersion(n)
 	if obj.Name == "nvidia-driver-daemonset" {
 		if osTag != "" {
-			img := fmt.Sprintf("%s-%s", getDriver(), osTag)
+			//img := fmt.Sprintf("%s-%s", getDriver(), osTag)
+			img := fmt.Sprintf("%s", getDriver())
 			obj.Spec.Template.Spec.Containers[0].Image = img
 			if osTag == "rhel" {
 				entitlementPath := "/etc/pki/entitlements"

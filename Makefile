@@ -16,7 +16,7 @@ DOCKERFILE_DEVEL ?= $(CURDIR)/docker/Dockerfile.devel
 DOCKERFILE_PPC64LE ?= $(CURDIR)/docker/Dockerfile.ubuntu18.04.ppc64le
 
 BIN_NAME  ?= gpu-operator
-IMAGE     ?= nvidia/gpu-operator
+IMAGE     ?= mrobbo/gpu-operator
 VERSION   ?= 1.1.2
 TAG       ?= latest
 TAG_DEVEL ?= devel
