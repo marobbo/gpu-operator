@@ -13,7 +13,7 @@ spec:
   restartPolicy: OnFailure
   containers:
     - name: cuda-vector-add
-      image: "mrobbo/samples:cuda10.2-vectorAdd"
+      image: "mrobbo/samples:cuda10.1-vectorAdd"
       securityContext:
         allowPrivilegeEscalation: false
   nodeSelector:
